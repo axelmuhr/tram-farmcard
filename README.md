@@ -1,5 +1,5 @@
 # tram-farmcard
-This is a cpu-expansion card for the vintage Atari Trasnputer Workstation (aka ATW800 aka ABAQ)
+This is a cpu-expansion card for the vintage [Atari Transputer Workstation](https://en.wikipedia.org/wiki/Atari_Transputer_Workstation) (aka ATW800 aka ABAQ)
 
 In contrast to the original Farmcard provided by Atari/Perihelion, this new version offers 8 TRAM slots to be populated with INMOS compatible TRAMs of any functionality.
 The full story and documentation can be found at [this projects homepage](http://www.geekdot.com/ATW800-farmcard)
