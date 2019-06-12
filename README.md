@@ -4,5 +4,6 @@ These are the (Eagle V5.x) schematics of an cpu-expansion card for the vintage [
 In contrast to the original Farmcard provided by Atari/Perihelion, this new version offers 8 TRAM slots to be populated with INMOS compatible TRAMs of any functionality. Aditionally it provides an RS422 interface.
 The full story and documentation can be found at [this projects homepage](http://www.geekdot.com/ATW800-farmcard)
 
-As of the initial release, there's no VHDL for the CPLD yet, i.e. the card will not work (yet).
-The CPLD needs to be programmed to work as controller connected to the propriaty "diagnose bus" in order to reset one or all Transputers on this card.
+As of the initial release, there's just a basic VHDL skeleton for the CPLD, i.e. the card will not work (yet).
+The VHDL is provided as part of a (Altera now Intel) Quartus v13 project. This version was the most recent still supportign the MAX3000/7000 family.
+The CPLD needs to be programmed to work as controller connected to the propriaty "diagnostic bus" in order to reset one or all Transputers on this card.
