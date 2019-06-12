@@ -1,0 +1,31 @@
+|tfarmcard
+L_In => ~NO_FANOUT~
+L_Out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+FastIn => ~NO_FANOUT~
+FastOut <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SlowIn => ~NO_FANOUT~
+SlowOut <= comb.DB_MAX_OUTPUT_PORT_TYPE
+tErrIn => ~NO_FANOUT~
+tErrOut <= comb.DB_MAX_OUTPUT_PORT_TYPE
+gResetIn => ~NO_FANOUT~
+gResetOut <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s0res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s0ana <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s1res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s1ana <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s2res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s2ana <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s3res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s3ana <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s4res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s4ana <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s5res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s5ana <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s6res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s6ana <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s7res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s7ana <= comb.DB_MAX_OUTPUT_PORT_TYPE
+nLedRed <= comb.DB_MAX_OUTPUT_PORT_TYPE
+nLedGrn <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

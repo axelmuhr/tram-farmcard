@@ -27,16 +27,16 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity tfarmcard is --==============================================================================
 
-    port( L_IN			: in	STD_LOGIC;                        -- DiagBus LinkIn?
-		  L_OUT         : out   STD_LOGIC;                        -- DiagBus LinkOut?
-          FastIn        : in    STD_LOGIC;                        -- Fast Line of the DiagBus (in)
-          FastOut       : out   STD_LOGIC;                        -- Fast Line of the DiagBus (out)
-          SlowIn        : in    STD_LOGIC;                        -- Slow Line of the DiagBus (in)
-          SlowOut       : out   STD_LOGIC;                        -- Slow Line of the DiagBus (out)
-          tErrIn        : in    STD_LOGIC;                        -- Error Line of the DiagBus (in)
-          tErrOut       : out   STD_LOGIC;                        -- Error Line of the DiagBus (out)
-          gResetIn      : in    STD_LOGIC;                        -- Reset Line of the DiagBus (in)
-		  gResetOut     : out   STD_LOGIC;                        -- Reset Line of the DiagBus (out)
+	port( L_In			: in    STD_LOGIC;                         -- DiagBus LinkIn?
+			L_Out			: out   STD_LOGIC;                        -- DiagBus LinkOut?
+			FastIn		: in    STD_LOGIC;                        -- Fast Line of the DiagBus (in)
+        FastOut		: out   STD_LOGIC;                        -- Fast Line of the DiagBus (out)
+        SlowIn			: in    STD_LOGIC;                        -- Slow Line of the DiagBus (in)
+        SlowOut      : out   STD_LOGIC;                        -- Slow Line of the DiagBus (out)
+        tErrIn       : in    STD_LOGIC;                        -- Error Line of the DiagBus (in)
+        tErrOut      : out   STD_LOGIC;                        -- Error Line of the DiagBus (out)
+        gResetIn     : in    STD_LOGIC;                        -- Reset Line of the DiagBus (in)
+		  gResetOut    : out   STD_LOGIC;                        -- Reset Line of the DiagBus (out)
 		  
 		  s0res			: out   STD_LOGIC;                        -- Reset Line TRAM-slot 0
 		  s0ana			: out   STD_LOGIC;                        -- Analyze Line TRAM-slot 0
@@ -55,17 +55,14 @@ entity tfarmcard is --==========================================================
 		  s7res			: out   STD_LOGIC;                        -- Reset Line TRAM-slot 7
 		  s7ana			: out   STD_LOGIC;                        -- Analyze Line TRAM-slot 7
           
-          nLedRed       : out   STD_LOGIC;                         -- red (error) LED
-          nLedGrn       : out   STD_LOGIC;                         -- green (optional) LED
-
-             
-         ); 
+        nLedRed      : out   STD_LOGIC;                        -- not_red (error) LED
+        nLedGrn      : out   STD_LOGIC                        -- not_green (optional) LED
+	); 
 end tfarmcard;
 
 architecture rtl of tfarmcard is --=================================================================
 
-    -- signal moo      : STD_LOGIC;  -- signals and stuff
-
+	-- signal moo      : STD_LOGIC;  -- signals and stuff
      
 begin
     -- magic happens here
